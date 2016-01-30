@@ -55,10 +55,10 @@ class App extends Component {
   render() {
     return !this.props.error ? (
       <div>
-        <Header />
+        {/*<Header />*/}
         {this.props.children}
-        <Feedback />
-        <Footer />
+        {/*<Feedback />*/}
+        {/*<Footer />*/}
       </div>
     ) : this.props.children;
   }

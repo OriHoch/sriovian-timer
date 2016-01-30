@@ -28,7 +28,7 @@ class Footer extends Component {
           <a className={s.link} href="/not-found" onClick={Link.handleClick}>Not Found</a>
         </div>
       </div>
-    );
+    );z
   }
 
 }
